@@ -42,7 +42,7 @@ createCanvas(windowWidth,windowHeight);
 bg=createSprite(0,0,windowWidth,windowHeight);
 bg.addImage(bgImg);
 //bg.x=bg.width/2;
-bgvelocityX=-9;
+bg.velocityX=-9;
 bg.scale=2.5;
 
 bob=createSprite(150,620,30,60);
